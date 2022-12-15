@@ -106,7 +106,7 @@ private:
 	glm::vec2 br = glm::vec2(0.0f);
 
 	RGBA8 color;
-	RGBA8 normalColor = { 200, 250, 150, 255 };
+	RGBA8 normalColor = { 100, 100, 150, 255 };
 	RGBA8 hoverColor = { 200, 255, 0, 255 };
 	RGBA8 pressColor = { 255, 0, 0, 255 };
 
@@ -248,7 +248,7 @@ public:
 
 		m_Texture = Texture2D::LoadPNG("Assets/Test.png");
 
-		for (size_t i = 0; i < 6; i++) {
+		for (size_t i = 0; i < 1; i++) {
 			m_Rects.push_back(new Rect(glm::vec2(150.0f * (i + 1), 100.0f), glm::vec2(100.0f), m_Texture.textureID));
 		}
 	}
