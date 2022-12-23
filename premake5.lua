@@ -123,6 +123,6 @@ project "Sandbox"
 			"odbc32",
 			"odbccp32"
 		}		
-		prebuildcommands {
-			"{COPYDIR} $(SolutionDir)%{prj.name}/Assets $(SolutionDir)bin/" .. outputdir .. "/%{prj.name}/Assets"
+		postbuildcommands {
+			'{COPYDIR} "$(SolutionDir)%{prj.name}/Assets" "$(SolutionDir)bin/' .. outputdir .. '/%{prj.name}/Assets"'
 		}
