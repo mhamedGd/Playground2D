@@ -64,6 +64,7 @@ namespace pg2D {
 
 	void World::AddScene(const std::string& sceneName) {
 		m_ExistingScenes.push_back(m_ScenesList->GetRegisteredScene(sceneName));
+		m_ExistingScenes.back()->SetSceneIndex(m_ExistingScenes.size() - 1);
 		//m_ExistingScenes.back()->OnStart();
 	}
 	void World::RemoveScene(const std::string& sceneName) {

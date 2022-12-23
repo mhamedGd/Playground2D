@@ -2,6 +2,10 @@
 
 > A Windows OS framework that handles Windowing, Graphics, and Input. The main use of this framework is for learning and implementing algorithms in a visual manner. This framework is not intended for creating a distributable software. This framework is only tested on Windows OS and only works there.
 
+## Documentation
+
+> You can find the documentation at [Pg2dDocs](https://mhamedgd.github.io/Pg2dDocs/)
+
 ## Built With
 
 - C++
@@ -22,8 +26,8 @@
 
 👤 **MhamedGd**
 
-- GitHub: [@githubhandle](https://github.com/mhamedGd)
-- Twitter: [@twitterhandle](https://twitter.com/mhamedKGD)
+- GitHub: [Github](https://github.com/mhamedGd)
+- Twitter: [Twitter](https://twitter.com/mhamedKGD)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohammed-k-b10450107/)
 
 ## 🤝 Contributing
