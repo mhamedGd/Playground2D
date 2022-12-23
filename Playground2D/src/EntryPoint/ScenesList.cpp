@@ -5,7 +5,6 @@
 namespace pg2D {
 	void ScenesList::RegisterScene(Scene* sceneToRegister) {
 		m_RegisteredScenes.push_back(sceneToRegister);
-		m_RegisteredScenes.back()->SetSceneIndex(m_RegisteredScenes.size() - 1);
 		m_RegisteredScenes.back()->SetOwnerWorld(ownerWorld);
 	}
 

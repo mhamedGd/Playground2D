@@ -4,47 +4,6 @@
 #include <iostream>
 
 namespace pg2D {
-	void ShapeBatch::Init() {/*
-		if (m_VAO == 0) glGenVertexArrays(1, &m_VAO);
-		glBindVertexArray(m_VAO);
-
-		if (m_VBO == 0) glGenBuffers(1, &m_VBO);
-		glBindBuffer(GL_ARRAY_BUFFER, m_VBO);
-
-		glEnableVertexAttribArray(0);
-		glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float), 0);
-
-		if (m_IBO == 0) glGenBuffers(1, &m_IBO);
-		glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, m_IBO);
-
-		glBindVertexArray(0);
-		glBindBuffer(GL_ARRAY_BUFFER, 0);
-		glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
-		glDisableVertexAttribArray(0);
-		*/
-		/*
-		m_Verts.resize(4);
-		m_Verts[0] = { glm::vec2(-0.5f, -0.5f) };
-		m_Verts[1] = { glm::vec2( 0.5f, -0.5f) };
-		m_Verts[2] = { glm::vec2( 0.5f,  0.5f) };
-		m_Verts[3] = { glm::vec2(-0.5f,  0.5f) };
-
-		m_Indices.resize(8);
-		m_Indices[0] = 0;
-		m_Indices[1] = 1;
-
-		m_Indices[2] = 1;
-		m_Indices[3] = 2;
-
-		m_Indices[4] = 2;
-		m_Indices[5] = 3;
-
-		m_Indices[6] = 3;
-		m_Indices[7] = 0;
-		*/
-		
-	}
-
 	void ShapeBatch::DrawLine(const glm::vec2& startPos, const glm::vec2& targetPos, RGBA8 color) {
 		int vertsSize = m_Verts.size();
 		m_Verts.resize(vertsSize + 2);

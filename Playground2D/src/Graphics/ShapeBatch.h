@@ -56,14 +56,11 @@ namespace pg2D {
 		}
 		~ShapeBatch() { }
 
-		void Init();
-
 		void DrawLine(const glm::vec2& startPos, const glm::vec2& targetPos, RGBA8 color);
 		void DrawBox(const glm::vec2& origin, const glm::vec2& dimensions, RGBA8 color);
 		void DrawBox(const glm::vec2& origin, const glm::vec2& dimensions, RGBA8 color, float angleInDegrees);
 		void DrawCirlce(const glm::vec2& center, float radius, RGBA8 color);
 
-		void Finalize();
 		void Render(Camera2D& m_Camera, float lineWidth);
 
 	private:
@@ -81,6 +78,7 @@ namespace pg2D {
 			newPoint.y = originalPoint.x * sin(angle) + originalPoint.y * cos(angle);
 			return newPoint;
 		}
+		void Finalize();
 	};
 }
 
