@@ -5,6 +5,7 @@
 ## Documentation
 
 > You can find the documentation at [Pg2dDocs](https://mhamedgd.github.io/Pg2dDocs/)
+> An Introdcutory video on the framework [Video](https://youtu.be/xD7a2a6CTKA)
 
 ## Built With
 
@@ -26,6 +27,7 @@
 
 👤 **MhamedGd**
 
+- Email: mhamed.m14@gmail.com
 - GitHub: [Github](https://github.com/mhamedGd)
 - Twitter: [Twitter](https://twitter.com/mhamedKGD)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohammed-k-b10450107/)

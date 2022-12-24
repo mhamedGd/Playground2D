@@ -124,5 +124,6 @@ project "Sandbox"
 			"odbccp32"
 		}		
 		postbuildcommands {
-			'{COPYDIR} "$(SolutionDir)%{prj.name}/Assets" "$(SolutionDir)bin/' .. outputdir .. '/%{prj.name}/Assets"'
+			'{COPYDIR} "$(SolutionDir)%{prj.name}/Assets" "$(SolutionDir)bin/' .. outputdir .. '/%{prj.name}/Assets"',
+			'{COPYFILE} "$(SolutionDir)freetype.dll" "$(SolutionDir)bin/' .. outputdir .. '/%{prj.name}"'
 		}

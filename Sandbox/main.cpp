@@ -1,9 +1,6 @@
 #define PLAYGROUND_2D
 
-#include <vector>
-
 #include <Playground2D.h>
-#include <glm/glm.hpp>
 
 #include "Examples/ImageRect.h"
 
