@@ -246,10 +246,10 @@ public:
 	virtual void OnStart() override {
 		m_HudCamera = HudCamera(ownerWorld->GetWindow());
 
-		m_Texture = Texture2D::LoadPNG("Assets/Test.png");
+		m_Texture = Texture2D::LoadPNG("Assets/Playground2D.png");
 
 		for (size_t i = 0; i < 1; i++) {
-			m_Rects.push_back(new Rect(glm::vec2(150.0f * (i + 1), 100.0f), glm::vec2(100.0f), m_Texture.textureID));
+			m_Rects.push_back(new Rect(glm::vec2(150.0f * (i + 1), 100.0f), glm::vec2(m_Texture.width/4, m_Texture.height/4), m_Texture.textureID));
 		}
 	}
 
