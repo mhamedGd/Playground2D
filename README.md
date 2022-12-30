@@ -1,6 +1,6 @@
 ### Playground2D
 
-![Playground2D Logo](https://github.com/mhamedGd/Playground2D/blob/main/Playground2D.svg)
+![Playground2D Logo](Playground2D.svg)
 
 > A Windows OS framework that handles Windowing, Graphics, and Input. The main use of this framework is for learning and implementing algorithms in a visual manner. This framework is not intended for creating a distributable software. This framework is only tested on Windows OS and only works there.
 
