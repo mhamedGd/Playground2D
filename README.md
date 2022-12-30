@@ -1,4 +1,3 @@
-
 ![Playground2D Logo](Playground2D.svg)
 
 ## Playground2D
